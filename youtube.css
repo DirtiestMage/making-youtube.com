@@ -3,6 +3,11 @@
 p{
   color:white;
   font-family: Roboto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+a{
+  color: black;
 }
 .thumbnail{
   width: 400px;
@@ -29,11 +34,6 @@ body{
   border-width: 2px;
   color: white;
   
-}
-p {
-  font-family: Roboto;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .video-title {
