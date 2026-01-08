@@ -10,23 +10,27 @@ a{
   color: black;
 }
 .thumbnail{
-  width: 400px;
+  width: 450px;
   object-fit: contain;
   object-position: middle;
+  border-radius: 10px;
 }
 body{
   background-color: black;
   color: black;
 
 }
+.top-div{
+  
+}
 .search{
-  display: block;
   font-family: Roboto;
   padding-top: 10px;
-  padding-left: 30px;
+  padding-left: 20px;
   padding-bottom: 10px;
-  padding-right: 200px;
-  margin: 40px;
+  padding-right: 350px;
+  margin: 10px;
+ 
   border-radius: 20px;
   background-color: black;
   font-size: 16px;
@@ -37,10 +41,9 @@ body{
 }
 
 .video-title {
-
-  font-size: 18px;
-  font-weight: bold;
-  width: 400px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 500;
   line-height: 24px;
   margin-bottom: 5px;
 }
@@ -48,35 +51,44 @@ body{
 .video-stats {
 
   font-size: 14px;
-  color: rgb(96, 96, 96);
-  margin-bottom: 20px;
+  color: rgb(170,170,170);
 }
 
 .video-author {
 
   font-size: 14px;
-  color: rgb(96, 96, 96);
-  margin-bottom: 18px;
+  color: rgb(170,170,170);
+  margin-bottom: 5px;
 }
-
-.video-description {
-
-  font-size: 14px;
-  color: rgb(96, 96, 96);
-  width: 400px;
-  line-height: 20px;
-  
+.video-author:hover{
+  color: white;
 }
 
 .video-div{
-  width: 400px;
+  width: 450px;
   display: inline-block;
-  margin: 10px;
+  margin: 0px;
   padding: 15px;
   border-radius: 15px;
-  transition: background-color 200ms;
+  transition: background-color 250ms;
+  vertical-align: top;
 }
 .video-div:hover{
   background-color: rgb(23, 23, 23);
+}
+.channel{
+  display: inline-block;
+  width: 50px;
+  vertical-align: top;
+}
+.video-text{
+  display: inline-block;
+  width: 340px;
+}
+.channel-image{
+  width: 40px;
+  border-radius: 25px;
+  margin-top: 10px;
+  
 }
 
