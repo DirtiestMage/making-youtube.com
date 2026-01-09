@@ -80,10 +80,13 @@ body{
   display: inline-block;
   width: 50px;
   vertical-align: top;
+  text-align: center;
+  
 }
 .video-text{
   display: inline-block;
   width: 340px;
+
 }
 .channel-image{
   width: 40px;
@@ -91,4 +94,5 @@ body{
   margin-top: 10px;
   
 }
+.video-info{  v }
 
