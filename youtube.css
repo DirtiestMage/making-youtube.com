@@ -36,7 +36,7 @@ a {
   outline: none;
 }
 
-/* ---------- Video Card ---------- */
+/*Video Card*/
 
 .video-div {
   width: 500px;
@@ -51,14 +51,14 @@ a {
   background-color: rgb(23, 23, 23);
 }
 
-/* ---------- Thumbnail ---------- */
+/*Thumbnail */
 
 .thumbnail {
   width: 100%;
   border-radius: 10px;
 }
 
-/* ---------- Video Info Section ---------- */
+/*Video Info Section*/
 
 .video-info {
   display: grid;
